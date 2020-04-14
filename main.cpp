@@ -324,8 +324,8 @@ int main(int argc, char** argv) {
 	srand(time(NULL));
 	int opcion,dato;
 	Nodo *raiz,*resultado;
-	ArbolBinario arbol;
-	ArbolBinOrd arbolOrd;
+	ArbolBinario arbol; //Objeto para el arbol binario desornenado
+	ArbolBinOrd arbolOrd; //Objeto para el arbol binario ornenado
 	do{
 		opcion=menuPrincipal();
 		switch(opcion){
